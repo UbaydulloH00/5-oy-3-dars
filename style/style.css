@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:lightgray ;
+}
+.todo{
+    margin-top: 100px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 600px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px grey;
+}
+.todo_form{
+    margin-bottom: 20px;
+}
+#form{
+    width: 480px;
+    padding: 10px;
+}
+#button{
+    background-color:brown;
+    padding: 10px;
+    border-radius:10px;
+    border: none;
+}
+.todo_ietms ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 5px;
+
+
+}
+.todo_ietms ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
